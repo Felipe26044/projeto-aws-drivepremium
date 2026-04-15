@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrivePremium | Sua próxima conquista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2 font-bold text-2xl tracking-tighter italic">
+                <i data-lucide="car" class="text-red-600"></i> DRIVE<span class="text-red-600">PREMIUM</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium">
+                <a href="index.html" class="text-red-600">Início</a>
+                <a href="sobre.html" class="hover:text-red-600 transition">Sobre Nós</a>
+                <a href="#" class="hover:text-red-600 transition">Estoque</a>
+                <a href="#" class="hover:text-red-600 transition">Contato</a>
+            </div>
+            <button class="bg-red-600 text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition text-sm">Falar no WhatsApp</button>
+        </div>
+    </nav>
+
+    <header class="relative h-[80vh] flex items-center">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1920" class="w-full h-full object-cover brightness-50" alt="Carro de Luxo">
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-white">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Mais que carros,<br>experiências únicas.</h1>
+            <p class="text-xl text-slate-200 max-w-xl mb-8">Selecionamos apenas os veículos mais exclusivos e certificados para que você foque no prazer de dirigir.</p>
+            <div class="flex gap-4">
+                <a href="#" class="bg-red-600 px-8 py-4 rounded-lg font-bold hover:bg-red-700 transition">Ver Estoque</a>
+                <a href="sobre.html" class="bg-white/10 backdrop-blur-md px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition border border-white/30">Conheça nossa história</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold mb-12 text-center">Nossos Diferenciais</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
+                <i data-lucide="shield-check" class="text-red-600 w-12 h-12 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Garantia Premium</h3>
+                <p class="text-slate-600">Todos os nossos veículos passam por uma revisão de 150 itens antes de chegarem até você.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
+                <i data-lucide="banknote" class="text-red-600 w-12 h-12 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Melhores Taxas</h3>
+                <p class="text-slate-600">Parcerias com os principais bancos para garantir o financiamento que cabe no seu bolso.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
+                <i data-lucide="award" class="text-red-600 w-12 h-12 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Procedência Única</h3>
+                <p class="text-slate-600">Trabalhamos apenas com veículos de baixa quilometragem e histórico de manutenção completo.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
